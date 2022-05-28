@@ -1,0 +1,106 @@
+@-webkit-keyframes floating {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  50% {
+    -webkit-transform: translateY(150px);
+            transform: translateY(150px);
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
+@keyframes floating {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  50% {
+    -webkit-transform: translateY(150px);
+            transform: translateY(150px);
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
+@-webkit-keyframes scale {
+  0% {
+    -webkit-transform: scaleX(0.5) scaleY(0.5);
+            transform: scaleX(0.5) scaleY(0.5);
+  }
+  100% {
+    -webkit-transform: scaleX(1) scaleY(1);
+            transform: scaleX(1) scaleY(1);
+  }
+}
+
+@keyframes scale {
+  0% {
+    -webkit-transform: scaleX(0.5) scaleY(0.5);
+            transform: scaleX(0.5) scaleY(0.5);
+  }
+  100% {
+    -webkit-transform: scaleX(1) scaleY(1);
+            transform: scaleX(1) scaleY(1);
+  }
+}
+
+button.register__button:hover {
+  background-color: #FFFFFF;
+  color: #FB8F1D;
+}
+
+button.register__button:hover:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+button.login__button:hover {
+  background-color: #FB8F1D;
+  color: #FFFFFF;
+}
+
+.read__more:hover {
+  font-weight: 100;
+}
+
+a.nav__header:hover {
+  text-decoration: underline;
+}
+
+a.nav__header#home:hover {
+  text-decoration: underline;
+}
+
+.view__all:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #FB8F1D;
+          text-decoration-color: #FB8F1D;
+}
+
+.download__btn:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+.download__btn:hover {
+  font-weight: 100;
+  border-color: #FB8F1D;
+  color: #FB8F1D;
+  background-color: #FFFFFF;
+}
+
+button.login__button:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+/*# sourceMappingURL=animation.css.map */

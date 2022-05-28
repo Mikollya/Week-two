@@ -1,0 +1,61 @@
+@import 'templates';
+.intro__tittle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    max-width: 420px;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.intro__subtext {
+    font-family: 'Mulish', sans-serif;
+    max-width: 400px;
+    height: 90px;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 300;
+    color: $footer-black-color;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.download__btn {
+    border: 1px solid $primary-color;
+    width: 164px;
+    height: 48px;
+    background: $primary-color;
+    border-radius: 8px;
+    font-family: $font-stack-inter, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: $secondary-color;
+    align-items: center;
+    margin-top: 10px;
+    border-color: $secondary-color;
+    mix-blend-mode: normal;
+    box-sizing: border-box;
+    margin-top: 39px;
+    cursor: pointer;
+    font-family: $font-stack-inter;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.intro__text {
+    margin-top: 150px;
+}
+
+.thousand__photo {
+    max-width: 599px;
+    max-height: 542px;
+    margin-right: 80px;
+    animation: floating 12s linear infinite;
+}
